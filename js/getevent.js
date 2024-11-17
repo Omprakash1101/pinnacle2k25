@@ -28,7 +28,7 @@ xhttp.onreadystatechange = function() {
 
     }
 };
-xhttp.open("GET", "https://omprakash1101.github.io/PINNACLE_2K25/details1.json", true);
+xhttp.open("GET", "https://omprakash1101.github.io/pinnacle2k25/details1.json", true);
 xhttp.send();
 
 $(document).ready(function() {
@@ -172,7 +172,7 @@ $('.selectobj').change(function() {
           
         }
     };
-    xhttp.open("GET", "https://omprakash1101.github.io/PINNACLE_2K25/details1.json", true);
+    xhttp.open("GET", "https://omprakash1101.github.io/pinnacle2k25/details1.json", true);
     xhttp.send();
 
 });
