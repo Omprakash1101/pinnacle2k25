@@ -59,5 +59,21 @@ body, html {
   <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Sponsors</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
 </nav>
+<script>
+  var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
 </body>
 </html>
